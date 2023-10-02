@@ -1,0 +1,397 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+
+.logotext{
+	color: whitesmoke;
+	position: relative;
+	top: 30px;
+	margin-left: 15px;
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
+
+
+}
+.Header{
+	/*background: radial-gradient(#fff,#ffd6d6);*/
+	height: 100vh;
+	background-color: black	;
+
+}
+nav{
+	flex: 1;
+	text-align: right;
+	position: relative;
+	bottom: 20px;
+
+}
+nav ul{
+	position: relative;
+	display: flex;
+	list-style: none;
+	cursor: pointer;
+	align-items: center;
+	justify-content: flex-end;
+	
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 25px;
+
+
+
+}
+a{
+	text-decoration: none;
+	color: burlywood;
+	font-size: 23px;
+		font-family: 'Montserrat', sans-serif;
+
+}
+
+.Bgimage{
+	position: absolute;
+	left: 170px;
+
+}
+
+.Allproducts{
+	position: absolute;
+	left: 35%;
+	margin-top: 20px;
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.col-3{
+	float: left;
+	margin-top: 100px;
+	margin-left: 50px;
+
+}
+
+.col-3 img{
+	border-radius: 50px;
+}
+
+.footer{
+	background-color: black;
+	/*background-image: linear-gradient(rebeccapurple,black);*/
+	margin-top: 30px;
+	height: 40vh;
+	position: relative;
+	margin-top: 65%;
+}
+
+.footer-col-1 img{
+	position: absolute;
+	left: 1100px;
+	margin-top: 90px;
+}
+
+#Para{
+	position: absolute;
+	left: 750px;
+	margin-top: 105px;
+	font-size: 30px;
+	font-weight: 50px;
+	color: navajowhite;
+}
+#Footername{
+	position: absolute;
+	margin-top: 85px;
+	left: 130px;
+	font-size: 60px;
+	color: whitesmoke;
+	font-family: 'Montserrat', sans-serif;
+
+}
+#para{
+	position: absolute;
+	margin-top: 60px;
+	left: 110px;
+	font-size: 30px;
+	color: antiquewhite;
+}
+
+#Address{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	position: absolute;
+	left: 52%;
+	top: 150px;
+}
+#Number{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	position: absolute;
+	left: 52%;
+	top: 180px;
+
+}
+#Office{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	position: absolute;
+	left: 52%;
+	top: 215px;
+
+
+}
+
+/*------------------------------Alcoholic drinks ------------------------------------*/
+
+.header{
+	/*background: radial-gradient(#fff,#ffd6d6);*/
+	height: 230vh;
+	background-color: black	;
+
+}
+img{
+	border-radius: 30px;
+
+}
+
+#Alcoholicdrinks{
+	color: ghostwhite;
+	position: absolute;
+	left: 40%;
+	font-size: 30px;
+}
+/*.row img{
+	position: absolute;
+	left: 60%;
+	margin-top: 60px;
+
+}*/
+
+#Alcoholicimages{
+	position: absolute;
+	left: 30%;
+	margin-top: 40px;
+
+}
+#Alcoholicimages-1{
+	position: absolute;
+	left: 30%;
+	margin-top: 400px;
+}
+
+
+
+#Drinks{
+	/*color: whitesmoke;*/
+	left: 90%;
+	position: absolute;
+	margin-top: -250px;
+	color: red;
+	font-size: 30px;
+
+}
+
+#rate-1{
+	position: absolute;
+	margin-top: -210px;
+	font-size: 20px;
+	color: palevioletred;
+	left: 390px;
+	font-size: 30px;
+	
+	
+	
+
+
+}
+#rate-2{
+	margin-top: -210px;
+	font-size: 20px;
+	color: palevioletred;
+	left: 390px;
+	position: absolute;
+	font-size: 30px;
+
+
+}
+
+#Alcoholicimages-2{
+	position: absolute;
+	left: 30%;
+	margin-top: 800px;
+}
+
+#rate-3{
+	margin-top: -210px;
+	font-size: 20px;
+	color: palevioletred;
+	left: 390px;
+	position: absolute;
+	font-size: 30px;
+
+
+}
+#Alcoholicimages-3{
+	position: absolute;
+	left: 30%;
+	margin-top: 1150px;
+}
+#addcart{
+	position: relative;
+	left: 25%;
+	bottom: 130px;
+	font-size: 24px;
+	cursor: pointer;
+	border-radius: 10px;
+	border: none;
+	margin: 10px;
+	padding: 10spx;
+}
+
+#addcart:hover{
+	background-color: indianred;
+	color: white;
+}
+
+#addcart .text{
+
+}
+/*------------------------------Register and login ------------------------------------*/
+
+#Email{
+	color: white;
+	position: relative;
+	top: 50px;
+	left: 69px;
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+
+#email{
+	position: absolute;
+	top: 180px;
+	left: 300px;
+	width: 20%;
+	height: 30px;
+
+}
+#Pass{
+	color: whitesmoke;
+	position: relative;
+	top: 105px;
+	left: -20px;
+	font-size: 30px;
+		font-family: 'Montserrat', sans-serif;
+
+
+}
+
+#psw{
+	position: absolute;
+	top: 235px;
+	left: 300px;
+	width: 20%;
+	height: 30px;
+
+
+
+}
+#Repeatpass{
+	color: white;
+	position: relative;
+	top: 160px;
+	left: -170px;
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+#psw-repeat{
+	position: absolute;
+	top: 290px;
+	left: 300px;
+	width: 20%;
+	height: 30px;
+}
+
+#Submitbtn{
+	position: absolute;
+	bottom: 300px;
+	left: 140px;
+	font-size: 100px;
+}
+#Usernametext{
+	color: whitesmoke;
+	font-size: 30px;
+	left: 400px;
+	position: relative;
+	top: 50px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+#Emailbox{
+	position: relative;
+	left: 470px;
+	top: 50px;
+	width: 20%;
+	height: 30px;	
+}
+
+#Passwordtext{
+	color: whitesmoke;
+	font-size: 30px;
+	right: 60px;
+	position: relative;
+	bottom: -150px;
+	font-family: 'Montserrat', sans-serif;
+
+
+}
+#passwordbox{
+	position: relative;
+	left: 30px;
+	top: 140px;
+	width: 20%;
+	height: 30px;	
+
+}
+
+.Submit{
+	position: absolute;
+	top: 50%;
+	font-size: 30px;
+	border-radius: 20px;
+
+}
+.Sub{
+	position: absolute;
+	top: 50%;
+	font-size: 30px;
+	border-radius: 20px;	
+	right: 100px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

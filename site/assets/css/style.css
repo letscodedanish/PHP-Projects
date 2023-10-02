@@ -1,0 +1,443 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+header {
+  background: #ecece8;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .logo a {
+  text-decoration: none;
+  color: #333;
+}
+header nav .logo a span {
+  font-size: 30px;
+}
+header nav .menu ul {
+  list-style-type: none;
+}
+header nav .menu ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+header nav .menu ul li a {
+  color: #333;
+  text-decoration: none;
+  min-height: 80px;
+  display: inline-block;
+  line-height: 80px;
+  letter-spacing: 2px;
+}
+
+.banner .left {
+  width: 40%;
+  padding: 100px;
+}
+.banner .left div h1 {
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: 400;
+  margin-top: 40px;
+}
+.banner .left div span {
+  font-size: 17px !important;
+  letter-spacing: 1px;
+  line-height: 44px;
+}
+.banner .right {
+  width: 60%;
+}
+.banner .right img {
+  width: 100%;
+}
+
+.heading {
+  padding: 50px;
+}
+.heading > * {
+  text-align: center;
+}
+.heading h2 {
+  font-size: 30px;
+  line-height: 55px;
+  font-weight: 400;
+}
+
+.store,
+.basket {
+  padding: 100px 0;
+}
+
+.drinks {
+  gap: 30px;
+}
+.drinks .drink {
+  width: 33.3333%;
+  display: flex;
+  border: 1px solid #333;
+  padding: 35px;
+}
+.drinks .drink .image {
+  width: 130px;
+}
+.drinks .drink .image img {
+  width: 100%;
+}
+.drinks .drink .content {
+  padding-left: 20px;
+  flex: 1;
+}
+.drinks .drink .content h3 {
+  font-size: 25px;
+  font-weight: 500;
+}
+.drinks .drink .content .description {
+  font-size: 16px;
+  line-height: 31px;
+}
+.drinks .drink .content .price {
+  font-size: 27px;
+  font-weight: 500;
+}
+.drinks .drink .content .quantity {
+  margin-top: 20px;
+}
+.drinks .drink .content .quantity > span {
+  display: inline-block;
+}
+.drinks .drink .content .quantity .subtract,
+.drinks .drink .content .quantity .add {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #333;
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.drinks .drink .content .quantity .number {
+  line-height: 50px;
+  padding: 0 10px;
+}
+.drinks .drink .content .add-to-basket {
+  margin-top: 24px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  background: #bf9b30;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.btn-danger {
+  background: red;
+}
+
+.container, .container-large {
+  max-width: 1300px;
+  width: 100%;
+  margin: auto;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.container-large {
+  max-width: 1600px;
+}
+
+.internal-header {
+  padding: 100px 0;
+  text-align: center;
+}
+.internal-header h1 {
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.internal-header p {
+  font-size: 30px;
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+}
+.internal-header + .store, .internal-header + .login, .internal-header + .signup, .internal-header + .basket, .internal-header + .checkout, .internal-header + .account {
+  padding-top: 0;
+}
+
+.gallery {
+  gap: 30px;
+}
+.gallery .image {
+  width: 33.33333%;
+}
+.gallery .image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.login,
+.checkout,
+.account {
+  padding: 100px 0;
+}
+
+.form {
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+.form form div {
+  margin-bottom: 10px;
+}
+.form form div label {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  font-style: italic;
+}
+.form form input,
+.form form textarea {
+  width: 100%;
+  padding: 10px 16px;
+  margin-bottom: 10px;
+  border: 1px solid #bf9b30;
+  outline: none;
+}
+.form form button {
+  width: 100%;
+}
+
+.basket-items .basket-item {
+  display: flex;
+  border: 1px solid #333;
+  margin-bottom: 20px;
+}
+.basket-items .basket-item .image {
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  border-right: 1px solid #333;
+}
+.basket-items .basket-item .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.basket-items .basket-item .content {
+  padding: 20px;
+}
+.basket-items .basket-item .content .price {
+  font-size: 27px;
+  font-weight: 500;
+}
+.basket-items .basket-item .content .quantity {
+  margin-top: 20px;
+}
+.basket-items .basket-item .content .quantity > span {
+  display: inline-block;
+}
+.basket-items .basket-item .content .quantity .subtract,
+.basket-items .basket-item .content .quantity .add {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #333;
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.basket-items .basket-item .content .quantity .number {
+  line-height: 50px;
+  padding: 0 10px;
+}
+.basket-items .basket-item .content .add-to-basket {
+  margin-top: 24px;
+}
+
+.table {
+  max-width: 800px;
+  margin: auto;
+}
+.table .row {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.table .row .image {
+  width: 100px;
+  height: 100px;
+}
+.table .row .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.table .row .buttons {
+  margin-left: auto;
+}
+.table .row .buttons a {
+  padding: 10px;
+  display: inline-block;
+  border: 1px solid transparent;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s ease;
+}
+.table .row .buttons a.edit {
+  background-color: rgba(0, 128, 0, 0.7);
+  border-color: green;
+}
+.table .row .buttons a.edit:hover {
+  background-color: green;
+}
+.table .row .buttons a.delete {
+  background-color: rgba(255, 0, 0, 0.7);
+  border-color: red;
+}
+.table .row .buttons a.delete:hover {
+  background-color: red;
+}
+
+footer {
+  padding: 100px 0;
+  background: #ecece8;
+}
+footer .flex {
+  gap: 30px;
+}
+footer .col {
+  width: 50%;
+}
+footer .col strong {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+footer .col .menu ul {
+  list-style-type: none;
+}
+footer .col .menu ul li {
+  margin-bottom: 6px;
+}
+footer .col .menu ul li a {
+  font-size: 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+.message-box {
+  padding: 10px;
+  border: 1px solid transparent;
+}
+.message-box.success {
+  background-color: rgba(0, 128, 0, 0.5);
+  border-color: green;
+}
+.message-box.error {
+  background-color: rgba(255, 0, 0, 0.5);
+  border-color: red;
+}
+.message-box + form {
+  margin-top: 10px;
+}
+
+@media (min-width: 1600px) {
+  .banner .left > div {
+    width: 70%;
+    margin-left: auto;
+  }
+}
+@media (max-width: 1600px) {
+  .banner .left {
+    padding: 50px;
+  }
+  .banner .left h1 {
+    font-size: 30px !important;
+    line-height: 50px !important;
+  }
+}
+@media (max-width: 1200px) {
+  .drinks {
+    flex-wrap: wrap;
+  }
+  .drinks .drink {
+    width: 48% !important;
+  }
+
+  .gallery {
+    flex-wrap: wrap;
+  }
+  .gallery .image {
+    width: 48% !important;
+  }
+}
+@media (max-width: 960px) {
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner > * {
+    width: 100% !important;
+  }
+
+  .drinks .drink {
+    width: 100% !important;
+  }
+
+  .gallery .image {
+    width: 100% !important;
+  }
+
+  .store,
+.basket,
+.internal-header,
+footer {
+    padding: 35px 0;
+  }
+
+  .internal-header p {
+    width: 90%;
+  }
+
+  footer .flex {
+    flex-wrap: wrap;
+  }
+  footer .flex .col {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
